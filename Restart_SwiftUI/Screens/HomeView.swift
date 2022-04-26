@@ -48,6 +48,7 @@ struct HomeView: View {
             
             Button {
                 withAnimation {
+                    playSound(fileName: "success", fileType: "m4a")
                     isOnBoardingViewActive = true
                 }
             } label: {
